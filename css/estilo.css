@@ -139,7 +139,8 @@ html {
     text-align: justify; }
   .datos {
     font-size: 1.5rem;
-    color: #f5f5f5; }
+    color: #f5f5f5;
+    text-align: justify; }
   .contenedor__sectionh3 {
     padding: 3rem; }
     .contenedor__sectionh3 h3 {
