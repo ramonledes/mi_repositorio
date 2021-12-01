@@ -18,7 +18,8 @@ $color-article:#f5f5f5;
             margin-top: 4rem;
             background-color: #161a1d;
             color: $color-article;
-            height: 7rem;
+            padding-bottom: 2rem;
+            
            
             
             .header__h1 {
@@ -105,15 +106,13 @@ $color-article:#f5f5f5;
     
            
     .header {
-        margin-top: 4rem;
         background-color: #161a1d;
         color: $color-article;
-        height: 12rem;
        
         
         .header__h1 {
             text-align: center;
-            font-size: 7.5rem;
+            font-size: 6rem;
         }
     }
 
