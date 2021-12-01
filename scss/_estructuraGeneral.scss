@@ -71,6 +71,7 @@ $color-footer:#788bff;
 
 
 @media screen and (min-width: 1024px){
+    
     .navbar-brand {
         font-size: 4rem;
         
@@ -92,6 +93,10 @@ $color-footer:#788bff;
         font-size: 3rem;
     }
     
+    .contenedor__section2 {
+        width: 95%;
+        margin: 0 auto;
+    }
   
  
 }
