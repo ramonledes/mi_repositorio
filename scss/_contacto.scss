@@ -18,6 +18,7 @@ $color-footer:#788bff;
     line-height: 1.6;
     font-family: 'Quicksand', sans-serif;
     padding: 0 1.5em;
+    
    
 }
 
@@ -34,22 +35,21 @@ ul {
     color: #B70E21;
 }
 
-.contact-wrapper {
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
-}
 
-.contact-wrapper > * {
-    padding: 1em;
-}
+
+
 
 .contact-form {
-    background: #222222;
+    background: #631b1b;
+    
+    
 }
 
 .contact-form form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: $color-article;
+    
 }
 
 .contact-form form label {
@@ -58,7 +58,8 @@ ul {
 
 .contact-form form p {
     margin: 0;
-    padding: 1em;
+    padding: 2em;
+    font-size: 1.5rem;
 }
 
 .contact-form form .block {
@@ -69,12 +70,13 @@ ul {
 .contact-form form input,
 .contact-form form textarea {
     width: 100%;
-    padding: .7em;
+    padding: .4em;
     border: none;
     background: none;
     outline: 0;
     color: #fff;
     border-bottom: 1px solid #d63031;
+    font-size: 2rem;
 }
 
 .contact-form form button {
@@ -122,6 +124,7 @@ ul {
     .contact-info ul,
     .contact-info p {
         text-align: left;
+        font-size: 3rem;
     }
     
 }

@@ -18,7 +18,7 @@ $color-article:#f5f5f5;
             margin-top: 4rem;
             background-color: #161a1d;
             color: $color-article;
-            padding-bottom: 2rem;
+            padding-bottom: 1rem;
             
            
             
@@ -54,12 +54,14 @@ $color-article:#f5f5f5;
         .contenedor__article .contenedor__h2 {
             font-size: 5rem;
             color: red;
+            font-family: 'Bebas Neue', cursive;
         }
         .contenedor__article  .parrafo__index {
             font-size: 2rem;
             padding: 1rem;
             color: $color-article;
             text-align: justify;
+            font-family: 'Rajdhani', sans-serif;
             
         }
         
