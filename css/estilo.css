@@ -20,7 +20,8 @@ html {
     font-size: 4rem;
     text-align: center; }
   .navbar-brand {
-    font-size: 6rem; }
+    font-size: 6rem;
+    font-family: 'Times New Roman', Times, serif; }
   .pie-pagina .grupo-1 {
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
@@ -38,7 +39,10 @@ html {
     text-align: justify;
     font-family: 'Rajdhani', sans-serif; }
   span {
-    color: red; } }
+    color: red; }
+  .contenedor__section2:hover .contenedor__figure {
+    transform: scale(1.03);
+    transition: all .5s; } }
 
 @media screen and (min-width: 700px) {
   .pie-pagina .grupo-1 {
@@ -131,7 +135,8 @@ html {
     padding-bottom: 1rem; }
     .header .header__h1 {
       text-align: center;
-      font-size: 5rem; }
+      font-size: 5rem;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
   .contenedor {
     width: 100%;
     padding: 1rem;
