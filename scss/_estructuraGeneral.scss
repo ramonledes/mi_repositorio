@@ -21,6 +21,12 @@ $color-footer:#788bff;
 
 
 @media screen and (min-width:320px){
+    .active {
+        background-color: red!important;
+        border-radius: 5%;
+        padding: 0.4rem;
+        color: #fff!important;
+    }
     .container-fluid {
         font-size: 4rem;
         text-align: center;
@@ -43,12 +49,14 @@ $color-footer:#788bff;
         font-size: 3rem;
         color: #fff;
         text-align: justify;
+        font-family: 'Rajdhani', sans-serif;
     }
 
     .parrafo {
         font-size: 1.8rem;
         color: #fff;
         text-align: justify;
+        font-family: 'Rajdhani', sans-serif;
     }
 
     span {
@@ -76,7 +84,9 @@ $color-footer:#788bff;
 
 
 @media screen and (min-width: 1024px){
-    
+    .navbar-nav li{
+        padding: 1rem; 
+    }
     .navbar-brand {
         font-size: 4rem;
         
@@ -131,6 +141,9 @@ $color-footer:#788bff;
     .pie-pagina .grupo-1 .box p{
         color: #efefef;
         margin-bottom: 10px;
+    }
+    .boxp {
+        font-size: 1.7rem!important;
     }
     .pie-pagina .grupo-1 .red-social a{
         display: inline-block;
