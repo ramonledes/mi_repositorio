@@ -165,7 +165,8 @@ html {
     .contenedor__sectionh3 h3 {
       text-align: center;
       font-size: 4rem;
-      color: #fff; }
+      color: #fff;
+      font-family: 'Bebas Neue', cursive; }
   .contenedor__section2 figcaption {
     font-size: 2rem;
     color: #fff; }
